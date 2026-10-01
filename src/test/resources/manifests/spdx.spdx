@@ -1,0 +1,21 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: example-bom
+Creator: Tool: local-vuln-scan-service
+Created: 2026-10-01T00:00:00Z
+
+PackageName: log4j-core
+SPDXID: SPDXRef-Package-log4j
+PackageVersion: 2.14.0
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+ExternalRef: PURL pkg:maven/org.apache.logging.log4j/log4j-core@2.14.0
+
+PackageName: commons-text
+SPDXID: SPDXRef-Package-commons-text
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+ExternalRef: PURL pkg:maven/org.apache.commons/commons-text@1.9.0

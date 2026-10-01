@@ -1,0 +1,5 @@
+ecosystem,name,version
+maven,netty-codec-http,4.1.50
+maven,commons-text,1.10.0
+npm,lodash,4.17.21
+pypi,requests,2.31.0

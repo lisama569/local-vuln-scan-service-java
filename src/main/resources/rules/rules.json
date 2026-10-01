@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-10-01T00:00:00Z",
+  "rules": [
+    {
+      "id": "CVE-2022-0001",
+      "ecosystem": "maven",
+      "packageName": "log4j-core",
+      "range": ">=2.0.0 <2.17.1",
+      "severity": "CRITICAL",
+      "description": "Log4Shell 远程代码执行"
+    },
+    {
+      "id": "CVE-2023-0002",
+      "ecosystem": "maven",
+      "packageName": "jackson-databind",
+      "range": ">=2.0.0 <2.15.0",
+      "severity": "HIGH",
+      "description": "反序列化代码执行"
+    },
+    {
+      "id": "CVE-2023-0003",
+      "ecosystem": "npm",
+      "packageName": "lodash",
+      "range": ">=4.0.0 <4.17.21",
+      "severity": "MEDIUM",
+      "description": "原型链污染"
+    },
+    {
+      "id": "CVE-2024-0004",
+      "ecosystem": "npm",
+      "packageName": "left-pad",
+      "range": ">=1.0.0 <=1.2.3",
+      "severity": "LOW",
+      "description": "边界区间回归（含 1.2.3）"
+    },
+    {
+      "id": "CVE-2024-0005",
+      "ecosystem": "pypi",
+      "packageName": "requests",
+      "range": ">=2.0.0 <2.31.0",
+      "severity": "HIGH",
+      "description": "证书校验绕过"
+    },
+    {
+      "id": "CVE-2025-0006",
+      "ecosystem": "maven",
+      "packageName": "netty-codec-http",
+      "range": ">=4.1.0 <4.1.108",
+      "severity": "HIGH",
+      "description": "HTTP 请求走私"
+    },
+    {
+      "id": "CVE-2025-0007",
+      "ecosystem": "maven",
+      "packageName": "commons-text",
+      "range": ">=1.5.0 <1.10.0",
+      "severity": "MEDIUM",
+      "description": "文本插值 RCE"
+    },
+    {
+      "id": "CVE-2026-9001",
+      "ecosystem": "npm",
+      "packageName": "alpha-lib",
+      "range": ">=1.5.0 <2.0.0",
+      "severity": "HIGH",
+      "description": "预发布边界验证：命中 2.0.0-alpha，不命中 1.5.0-beta 与 1.5.0-rc1"
+    }
+  ]
+}

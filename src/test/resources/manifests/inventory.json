@@ -1,0 +1,9 @@
+{
+  "components": [
+    {"ecosystem": "maven", "name": "log4j-core", "version": "2.14.0"},
+    {"ecosystem": "maven", "name": "jackson-databind", "version": "2.14.2"},
+    {"ecosystem": "npm", "name": "lodash", "version": "4.17.20"},
+    {"ecosystem": "npm", "name": "alpha-lib", "version": "2.0.0-alpha"},
+    {"ecosystem": "pypi", "name": "requests", "version": "2.28.1"}
+  ]
+}

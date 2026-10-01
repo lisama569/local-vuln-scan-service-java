@@ -1,0 +1,9 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "components": [
+    {"type": "library", "purl": "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.0"},
+    {"type": "library", "ecosystem": "pypi", "name": "requests", "version": "2.28.1"},
+    {"type": "library", "ecosystem": "npm", "name": "left-pad", "version": "1.2.3"}
+  ]
+}
