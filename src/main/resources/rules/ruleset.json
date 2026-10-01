@@ -1,0 +1,41 @@
+{
+  "rulesetVersion": "2026.10.01",
+  "rules": [
+    {
+      "ruleId": "R-LOG4J-001",
+      "vulnId": "CVE-2021-44228",
+      "ecosystem": "maven",
+      "packageName": "log4j-core",
+      "rangeSpec": ">=2.0.0,<2.15.0",
+      "severity": "CRITICAL",
+      "summary": "Log4Shell remote code execution"
+    },
+    {
+      "ruleId": "R-LOG4J-002",
+      "vulnId": "CVE-2021-45046",
+      "ecosystem": "maven",
+      "packageName": "log4j-core",
+      "rangeSpec": "[2.15.0,2.16.0)",
+      "severity": "HIGH",
+      "summary": "Log4j incomplete fix allows RCE in certain configurations"
+    },
+    {
+      "ruleId": "R-LODASH-001",
+      "vulnId": "CVE-2021-23337",
+      "ecosystem": "npm",
+      "packageName": "lodash",
+      "rangeSpec": "<4.17.21",
+      "severity": "HIGH",
+      "summary": "lodash template injection"
+    },
+    {
+      "ruleId": "R-REQUESTS-001",
+      "vulnId": "CVE-2023-32681",
+      "ecosystem": "pypi",
+      "packageName": "requests",
+      "rangeSpec": "[2.3.0,2.31.0)",
+      "severity": "MEDIUM",
+      "summary": "requests proxy-authorization header leak"
+    }
+  ]
+}
